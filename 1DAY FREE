@@ -1,0 +1,22 @@
+function getUserCredentials() {
+    var correctUsername = "1DAY-FREE"; // اسم المستخدم الصحيح
+    var correctPassword = "1DAY-FREE"";  // كلمة المرور الصحيحة
+
+    while (true) {
+        var username = prompt('ادخل اسم المستخدم:');
+        var password = prompt('ادخل كلمة المرور:');
+
+        if (username && password) {
+            if (username === correctUsername && password === correctPassword) {
+                alert('مرحباً بك في لوحة LOST ⇰ (1 يوم)');
+                break; // الخروج من الحلقة إذا كانت البيانات صحيحة
+            } else {
+                alert('اسم المستخدم أو كلمة المرور غير صحيحة. حاول مرة أخرى.');
+            }
+        } else {
+            alert('لم تقم بإدخال اسم المستخدم أو كلمة المرور. من فضلك أدخل كلاهما.');
+        }
+    }
+}
+
+getUserCredentials();
