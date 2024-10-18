@@ -1,22 +1,12 @@
-function getUserCredentials() {
-    var correctUsername = "1DAY-FREE"; // اسم المستخدم الصحيح
-    var correctPassword = "1DAY-FREE"";  // كلمة المرور الصحيحة
+loopy() 
+ function loopy() { 
+ var sWord ="mrwanxX" 
+ while (sWord != "1") {// Pass
+ sWord = prompt("𝘌𝘯𝘵𝘦𝘳 𝘛𝘩𝘦 𝘒𝘦𝘺 :")  
+ } 
+ 
+//confirm("ok");
 
-    while (true) {
-        var username = prompt('ادخل اسم المستخدم:');
-        var password = prompt('ادخل كلمة المرور:');
+window.alert("𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐏𝐀𝐍𝐄𝐋 ");
 
-        if (username && password) {
-            if (username === correctUsername && password === correctPassword) {
-                alert('مرحباً بك في لوحة LOST ⇰ (1 يوم)');
-                break; // الخروج من الحلقة إذا كانت البيانات صحيحة
-            } else {
-                alert('اسم المستخدم أو كلمة المرور غير صحيحة. حاول مرة أخرى.');
-            }
-        } else {
-            alert('لم تقم بإدخال اسم المستخدم أو كلمة المرور. من فضلك أدخل كلاهما.');
-        }
-    }
-}
-
-getUserCredentials();
+ }
